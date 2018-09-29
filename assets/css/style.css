@@ -1,0 +1,212 @@
+
+/*@font-face {
+    font-family: 'Nexa Bold';
+    src: url('../fonts/Nexa Bold.otf');
+} */
+@font-face {
+  font-family: 'Nexa Light';
+  src: url("../fonts/Nexa Light.otf"); }
+
+body {
+  color: White;
+  font-size: 18px;
+  font-family: 'Nexa Light'; }
+
+h1,
+h2,
+h3,
+h4,
+a,
+li,
+ul {
+  padding: 0;
+  margin: 0; }
+
+header .menu{
+  background-color: rgb(0,0,21);
+  background-size:cover;
+}
+header .menu img{
+  max-height: 120px;
+  padding:10px 5px;
+}
+header .menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+header .menu ul li{
+  display:inline-block;
+  padding:35px 20px;
+}
+header .menu ul li a{
+  font-size:24px;
+  color:white;
+  text-decoration: none;
+}
+header .menu ul li a:hover{
+  text-decoration: none;
+}
+header .main{
+  background-image: url("/assets/images/sky.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+h1{
+font-size:40px !important;
+padding:150px;
+padding-bottom:20px;
+color:white !important;
+text-align: center;
+font-family: 'Srisakdi', cursive !important;
+font-weight: bold;
+}
+h2{
+  font-size:30px;
+  padding:10px;
+  text-align: center;
+  color:white !important;
+}
+h3{
+  font-size:24px;
+  float:right;
+  padding:10px 50px;
+  color:white !important;
+}
+.about{
+  background-color: rgb(0,0,21);
+  background-size:cover;
+  padding:30px 0;
+}
+.about img{
+  border-radius: 50%;
+  max-width:100%;
+  padding: 40px 20px 20px 20px;
+}
+.about__txt{
+  background-color: rgba(255,256,256,0.9);
+  background-size: cover;
+  padding:40px;
+  box-shadow:10px 10px 50px 5px grey;  
+  margin:20px;
+}
+.about__txt p{
+color:black;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 16px;
+}
+.about__txt li{
+  font-size:16px;
+  color:black;
+}
+.spec{
+  padding:30px 0;
+}
+.spec h2{
+  color:black !important;
+  }
+.spec .item{
+  text-align: center;
+  color:black
+}
+.fa-angle-left,.fa-angle-right{
+  font-size: 30px;
+  padding-top:20px;
+}
+.hobby{
+  background-color: rgb(0,0,21);
+  background-size:cover;
+  padding:30px 0;
+}
+.hobby h3{
+  font-size: 24px;
+  text-transform: uppercase;
+  color:white;
+ text-align: center;
+ padding: 0;
+ padding-top:125px;
+ float:none;
+}
+.box1{
+  background-image: url("/assets/images/travel.jpg");
+  background-size: cover;
+  height:300px;
+}
+.box2{
+  background-image: url("/assets/images/photo.jpg");
+  background-size: cover;
+  height:300px;
+}
+.box3{
+  background-image: url("/assets/images/gym.jpg");
+  background-size: cover;
+  height:300px;
+}
+.box4{
+  background-image: url("/assets/images/cake.png");
+  background-size: cover;
+  height:300px;
+}
+
+.box1:hover,.box2:hover,.box3:hover,.box4:hover{
+  filter: gray; 
+  -webkit-filter: grayscale(100%);
+}
+.contact h2{
+  color:black !important;
+  }
+.contact p{
+    text-align: center;
+}
+.contact i{
+  padding:20px;
+  color: white;
+  font-size: 24px;
+  background-color: rgb(0,0,21);
+  border: 3px solid rgb(0,0,21);
+  border-radius: 50%;
+}
+.fa-bars{
+  display:none !important;
+}
+@media only screen and (max-width:1200px){
+  header .menu ul li a{
+    font-size:18px;
+   
+  }
+  header .menu ul li{
+    padding:35px 15px;
+  }
+}
+@media only screen and (max-width:996px){
+ #main__ul{
+   display:none;
+ }
+ .fa-bars{
+  display:block !important;
+  float: right;
+  padding:30px 10px 0 0;
+  font-size:30px;
+  color:white;
+}
+header .menu img{
+  max-height: 80px;
+}
+h1{
+  font-size:30px !important;
+padding:50px 20px 10px 20px;
+
+}
+ header h3{
+padding:10px;
+}
+#my-menu{
+  z-index:1000;
+}
+.about__txt p,.about__txt li{
+font-size:14px;
+}
+
+}
